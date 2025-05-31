@@ -1,4 +1,4 @@
-!pip install -r requirements.txt
+! pip install -r requirements.txt
 
 ! pip3 install --upgrade --quiet  google-cloud-aiplatform
 
