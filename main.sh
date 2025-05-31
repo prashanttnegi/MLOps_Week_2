@@ -6,4 +6,6 @@
 
 python main.py
 
-!gsutil cp artifacts/model.joblib "gs://mlops-course-sharp-cursor-461116-t1-week2"/"my-models/iris-classifier-week-2"/
+mkdir -p artifacts
+
+! gsutil cp artifacts/model.joblib "gs://mlops-course-sharp-cursor-461116-t1-week2"/"my-models/iris-classifier-week-2"/
